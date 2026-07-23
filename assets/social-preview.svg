@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Literature Evidence Synthesis</title>
+  <desc id="desc">Social preview for a Codex Skill that turns research papers into page-verified evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1630"/>
+      <stop offset=".58" stop-color="#172A51"/>
+      <stop offset="1" stop-color="#0E4A4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8375FF"/>
+      <stop offset="1" stop-color="#35D7B4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#020617" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .eyebrow { font: 700 19px Inter, "Segoe UI", sans-serif; fill: #7FE4D5; letter-spacing: 2.5px; }
+      .title { font: 750 54px Inter, "Segoe UI", sans-serif; fill: #F8FAFC; letter-spacing: -1px; }
+      .sub { font: 400 25px Inter, "Segoe UI", sans-serif; fill: #C6D4E8; }
+      .card { font: 700 22px Inter, "Segoe UI", sans-serif; fill: #F8FAFC; }
+      .small { font: 400 17px Inter, "Segoe UI", sans-serif; fill: #BFD0E5; }
+      .step { font: 700 15px Inter, "Segoe UI", sans-serif; fill: #081522; }
+      .foot { font: 650 19px Inter, "Segoe UI", sans-serif; fill: #E8F1FA; }
+    </style>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1130" cy="95" r="210" fill="#7764F5" opacity=".13"/>
+  <circle cx="90" cy="625" r="210" fill="#35D7B4" opacity=".09"/>
+  <rect x="70" y="58" width="1140" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <text x="78" y="112" class="eyebrow">CODEX SKILL · AUDITABLE AI READING</text>
+  <text x="78" y="183" class="title">Literature Evidence Synthesis</text>
+  <text x="78" y="226" class="sub">Any paper → verified claims → evidence matrix → cross-paper report</text>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="290" width="250" height="158" rx="24" fill="#182C52" stroke="#4B6291"/>
+    <circle cx="116" cy="331" r="18" fill="#8B7CFF"/>
+    <text x="116" y="336" text-anchor="middle" class="step">01</text>
+    <text x="148" y="338" class="card">Mixed papers</text>
+    <text x="106" y="382" class="small">Experimental · qualitative</text>
+    <text x="106" y="412" class="small">Clinical · ML · reviews</text>
+  </g>
+  <path d="M338 369 H386" stroke="#7FE4D5" stroke-width="5"/>
+  <path d="M386 369 l-15 -10 v20 z" fill="#7FE4D5"/>
+
+  <g filter="url(#shadow)">
+    <rect x="396" y="290" width="250" height="158" rx="24" fill="#173653" stroke="#35788F"/>
+    <circle cx="434" cy="331" r="18" fill="#46C3D4"/>
+    <text x="434" y="336" text-anchor="middle" class="step">02</text>
+    <text x="466" y="338" class="card">Verify claims</text>
+    <text x="424" y="382" class="small">PDF page · value · unit</text>
+    <text x="424" y="412" class="small">Table · figure · locator</text>
+  </g>
+  <path d="M656 369 H704" stroke="#7FE4D5" stroke-width="5"/>
+  <path d="M704 369 l-15 -10 v20 z" fill="#7FE4D5"/>
+
+  <g filter="url(#shadow)">
+    <rect x="714" y="290" width="220" height="158" rx="24" fill="#12424F" stroke="#2B9186"/>
+    <circle cx="752" cy="331" r="18" fill="#3ED6B7"/>
+    <text x="752" y="336" text-anchor="middle" class="step">03</text>
+    <text x="784" y="338" class="card">Appraise</text>
+    <text x="742" y="382" class="small">Design-aware checks</text>
+    <text x="742" y="412" class="small">Bias · validity · limits</text>
+  </g>
+  <path d="M944 369 H992" stroke="#7FE4D5" stroke-width="5"/>
+  <path d="M992 369 l-15 -10 v20 z" fill="#7FE4D5"/>
+
+  <g filter="url(#shadow)">
+    <rect x="1002" y="290" width="200" height="158" rx="24" fill="#0F514D" stroke="#54CBA6"/>
+    <circle cx="1040" cy="331" r="18" fill="#78E2A8"/>
+    <text x="1040" y="336" text-anchor="middle" class="step">04</text>
+    <text x="1072" y="338" class="card">Synthesize</text>
+    <text x="1030" y="382" class="small">Evidence · inference</text>
+    <text x="1030" y="412" class="small">Risk · audit appendix</text>
+  </g>
+
+  <rect x="78" y="508" width="1124" height="76" rx="22" fill="#09182D" stroke="#45627F"/>
+  <rect x="78" y="508" width="10" height="76" rx="5" fill="url(#accent)"/>
+  <text x="112" y="554" class="foot">No substantive conclusion enters synthesis without a valid PDF page and relocation phrase.</text>
+</svg>

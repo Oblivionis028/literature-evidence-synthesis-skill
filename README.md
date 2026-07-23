@@ -14,6 +14,21 @@
   <img src="skills/literature-evidence-synthesis/assets/evidence-pipeline.svg" alt="Universal page-verified literature evidence synthesis pipeline" width="100%">
 </p>
 
+## In 30 seconds
+
+Give the Skill a folder of lawful full-text PDFs. It separates bibliographic sources from their study units, extracts candidate claims, routes each study to a design-appropriate appraisal, and requires every substantive claim to carry a PDF page plus a relocation phrase before synthesis.
+
+```text
+PDF collection
+  → source and study-unit inventory
+  → page-verified claims
+  → design-aware appraisal
+  → conflict-aware evidence matrix
+  → auditable cross-paper report
+```
+
+Use it when you need more than a fluent summary: a reviewer, collaborator, or future you should be able to relocate the evidence behind every conclusion.
+
 ## Why this Skill exists
 
 General-purpose AI readers can summarize almost any paper, but summaries alone are not an auditable evidence base. Common failure modes include:
@@ -80,13 +95,42 @@ Source
 
 For normalized units or reviewer calculations, the original reported value is always preserved.
 
+## Demonstration
+
+The repository includes a self-contained, clearly fictional CC0 demonstration spanning three incompatible designs: a controlled experiment, a qualitative interview study, and a machine-learning benchmark. It shows how the same evidence model preserves design-specific meaning without forcing all papers into one numeric template.
+
+| Evidence overview | Verified-claim audit |
+|---|---|
+| <img src="examples/screenshots/evidence-matrix-overview.png" alt="Evidence matrix overview" width="100%"> | <img src="examples/screenshots/verified-claims.png" alt="Page-verified claims" width="100%"> |
+
+<p align="center">
+  <img src="examples/screenshots/synthesis-report.png" alt="Cross-paper synthesis report" width="88%">
+</p>
+
+Open the [mixed-literature demonstration](examples/mixed-literature-demo/) to inspect its synthetic PDFs, four linked CSV tables, completed workbook, and cross-paper report. All example values are fictional and exist only to demonstrate the workflow.
+
 ## Repository layout
 
 ```text
 .
 ├── README.md
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
 ├── LICENSE
 ├── requirements.txt
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   ├── DISCUSSION_TEMPLATE/
+│   └── PULL_REQUEST_TEMPLATE.md
+├── assets/
+│   ├── social-preview.svg
+│   └── social-preview.png
+├── examples/
+│   ├── README.md
+│   ├── mixed-literature-demo/
+│   └── screenshots/
 └── skills/
     └── literature-evidence-synthesis/
         ├── SKILL.md
@@ -203,6 +247,8 @@ A complete run should produce:
 5. evidence-gap and future-research section;
 6. claim-to-source audit appendix.
 
+For a completed reference output, download the [demonstration evidence matrix](examples/mixed-literature-demo/evidence-matrix.xlsx) and compare it with the accompanying [synthesis report](examples/mixed-literature-demo/synthesis-report.md).
+
 ## Limitations
 
 This Skill does not replace:
@@ -218,9 +264,11 @@ OCR-poor PDFs must be repaired or marked. The scripts validate provenance and st
 
 ## Contributing
 
-Contributions are welcome for additional design modules, OCR and table adapters, discipline-specific appraisal mappings, citation exports, and tested examples.
+Contributions are welcome for additional design modules, OCR and table adapters, discipline-specific appraisal mappings, citation exports, and tested examples. Start with [CONTRIBUTING.md](CONTRIBUTING.md), use the issue forms for bugs, features, or new design modules, and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 Please preserve the core invariant: **substantive claims require page-level source verification**.
+
+If you use or extend this project, GitHub can export a citation from [CITATION.cff](CITATION.cff).
 
 ## License
 

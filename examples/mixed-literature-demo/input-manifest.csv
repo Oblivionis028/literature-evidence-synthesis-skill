@@ -1,0 +1,4 @@
+source_id,document_type,title,purpose,license,local_file
+S0001,controlled experiment,Synthetic blue-light and recall experiment,Demonstrates quantitative and statistical verification,CC0,synthetic_pdfs/S0001_experiment.pdf
+S0002,qualitative study,Synthetic interviews on auditable AI reading,Demonstrates qualitative theme verification,CC0,synthetic_pdfs/S0002_qualitative.pdf
+S0003,computational benchmark,Synthetic document classification benchmark,Demonstrates model-performance and leakage checks,CC0,synthetic_pdfs/S0003_benchmark.pdf

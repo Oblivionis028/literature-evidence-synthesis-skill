@@ -1,0 +1,3 @@
+The synthetic demonstration PDFs in this directory are dedicated to the public domain under CC0 1.0.
+
+They describe fictional studies and must not be cited as scientific evidence.

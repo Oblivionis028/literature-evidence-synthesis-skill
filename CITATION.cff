@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software in research, please cite the repository and the release version."
+title: "Literature Evidence Synthesis"
+type: software-code
+version: 1.1.0
+date-released: 2026-07-23
+license: MIT
+authors:
+  - name: "Literature Evidence Synthesis contributors"
+abstract: "A domain-agnostic Codex Skill for producing page-verified evidence matrices, design-aware appraisals, and cross-paper synthesis reports."
+keywords:
+  - literature review
+  - evidence synthesis
+  - research automation
+  - page-level verification
+  - Codex Skill

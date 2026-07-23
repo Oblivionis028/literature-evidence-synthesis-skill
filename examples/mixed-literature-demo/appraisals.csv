@@ -1,0 +1,6 @@
+appraisal_id,source_id,study_id,tool_or_framework,domain,judgment,supporting_reason,pdf_page,locator_phrase,appraisal_status,notes
+A0001,S0001,ST0001,custom demonstration framework,allocation,low concern,A seeded random allocation sequence assigned 24 participants to each group,1,seeded random allocation,complete,Synthetic appraisal.
+A0002,S0001,ST0001,custom demonstration framework,external validity,some concerns,The paper reports a single-session simulated laboratory task,3,single-session simulated,complete,Synthetic appraisal.
+A0003,S0002,ST0002,custom demonstration framework,reflexivity,some concerns,The analysts acknowledge that they designed both the interview guide and coding framework,3,designed both the interview guide,complete,Synthetic appraisal.
+A0004,S0003,ST0003,custom demonstration framework,data leakage,low concern,The primary split held out one complete domain before model fitting,1,held out one complete domain,complete,Synthetic appraisal.
+A0005,S0003,ST0003,custom demonstration framework,external validation,some concerns,Only one synthetic held-out domain was evaluated,3,one synthetic held-out domain,complete,Synthetic appraisal.
