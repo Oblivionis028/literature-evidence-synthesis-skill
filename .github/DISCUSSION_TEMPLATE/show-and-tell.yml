@@ -1,0 +1,41 @@
+title: "[Showcase] "
+labels:
+  - showcase
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share what you built with Literature Evidence Synthesis. Do not upload restricted full text or sensitive data.
+  - type: input
+    id: field
+    attributes:
+      label: Research field
+      placeholder: "Example: public health, ecology, machine learning"
+    validations:
+      required: true
+  - type: textarea
+    id: corpus
+    attributes:
+      label: Corpus
+      description: Describe paper count, study designs, languages, and how full texts were obtained.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What did the workflow produce?
+      description: Summarize the evidence matrix, verification results, and synthesis.
+    validations:
+      required: true
+  - type: textarea
+    id: lesson
+    attributes:
+      label: Most useful lesson
+      description: What error, conflict, or evidence gap did the workflow reveal?
+  - type: checkboxes
+    id: sharing
+    attributes:
+      label: Sharing check
+      options:
+        - label: I have not shared restricted PDFs, confidential data, or personal information.
+          required: true
