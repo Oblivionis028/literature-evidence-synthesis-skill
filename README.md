@@ -1,5 +1,9 @@
 # Literature Evidence Synthesis
 
+<p align="right">
+  <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a>
+</p>
+
 ![Codex Skill](https://img.shields.io/badge/Codex-Skill-172554?style=for-the-badge)
 ![Research](https://img.shields.io/badge/Research-All%20Fields-6554C0?style=for-the-badge)
 ![Evidence](https://img.shields.io/badge/Evidence-Page%20Verified-0E7490?style=for-the-badge)
@@ -114,6 +118,7 @@ Open the [mixed-literature demonstration](examples/mixed-literature-demo/) to in
 ```text
 .
 ├── README.md
+├── README.zh-CN.md
 ├── CITATION.cff
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
