@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literature Evidence Synthesis"
+  short_description: "Build page-verified evidence across research fields"
+  default_prompt: "Use $literature-evidence-synthesis to turn these papers into a page-verified evidence matrix and cross-paper synthesis."
