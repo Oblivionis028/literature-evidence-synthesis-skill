@@ -1,0 +1,23 @@
+title: "[Idea] "
+labels:
+  - idea
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What should the project support or improve?
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Research value
+      description: Who benefits and what reliability problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Risks and tradeoffs
+      description: What could become misleading, fragile, or difficult to validate?
