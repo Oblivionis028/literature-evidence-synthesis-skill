@@ -1,0 +1,48 @@
+name: New study-design module
+description: Propose extraction and appraisal guidance for another research design.
+title: "[Design module]: "
+labels:
+  - design-module
+body:
+  - type: input
+    id: design
+    attributes:
+      label: Study design
+      placeholder: "Example: realist evaluation"
+    validations:
+      required: true
+  - type: textarea
+    id: disciplines
+    attributes:
+      label: Disciplines and use cases
+      description: Where is this design used and what questions does it answer?
+    validations:
+      required: true
+  - type: textarea
+    id: extraction
+    attributes:
+      label: Minimum extraction fields
+      description: List the design-specific information required for synthesis.
+    validations:
+      required: true
+  - type: textarea
+    id: appraisal
+    attributes:
+      label: Appraisal domains
+      description: List the main validity, bias, reflexivity, or quality checks.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Open methodological references
+      description: Provide official, primary, or openly accessible guidance URLs.
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Demonstration case
+      description: Describe a synthetic or openly licensed test case.
+    validations:
+      required: true
